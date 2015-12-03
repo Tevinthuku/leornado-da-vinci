@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>People Of Accomplishment</title>
+		<meta name="viewport" content="width=device-width">
+		<script src="jquery-2.1.4.min.js"></script>
+		<script src="typed.min.js"></script>
+<style>
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.quote{
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	width:100%;
+	text-align:center;
+	font-size:24px;
+	top:155px;
+}
+body{
+	width: 100%;
+	height:100%;
+	background-color: #A88080EC;
+	margin:0;
+}
+.saying{
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	width:100%;
+	text-align:center;
+	font-size:24px;
+	top:180px;
+}
+.pic img{
+	border-radius:50%;
+	position:absolute;
+	margin:auto;
+	right:0;
+	left:0;
+
+}
+</style>
+	</head>
+	<body>
+<!-- pic -->
+<div class="pic">
+	<img src="davinci.jpg" height="150px" width="150px" alt="">
+</div>
+
+	<!-- quote from? -->
+	
+<div class="quote">
+	<span class="element">
+	</span>
+</div>
+
+
+				
+
+<script>
+	$(function(){
+        $(".element").typed({
+            strings: ["A Powerful Quote. ^1000", "From Leornado Da Vinci", "<i> It had long since come to my attention</i> ^1000", "<i>that people of accomplishment</i> ^1000","<i>rarely sat back and let things happen to them.</i> ^1000", "<i>They went out and happened to things </i>" ],
+            contentType: 'html',
+            typeSpeed: 0
+        });
+    });
+		</script>
+	</body>
+</html>
